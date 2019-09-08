@@ -13,6 +13,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/EventMouseEnter.cs" root0="FORCE_HIGHLIGHTING" />
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+    <setting file="file://$PROJECT_DIR$/Assets/EventTry.cs" root0="FORCE_HIGHLIGHTING" />
+=======
+>>>>>>> master
+>>>>>>> Stashed changes
     <setting file="file://$PROJECT_DIR$/Assets/EventClick.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EventRandom.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/EventExperiment.cs" root0="FORCE_HIGHLIGHTING" />
@@ -22,8 +29,20 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/EventClick.cs" />
         <option value="$PROJECT_DIR$/Assets/EventRandom.cs" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/Assets/EventMouseEnter.cs" />
         <option value="$PROJECT_DIR$/Assets/EventExperiment.cs" />
+=======
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/Assets/EventExperiment.cs" />
+        <option value="$PROJECT_DIR$/Assets/EventMouseEnter.cs" />
+        <option value="$PROJECT_DIR$/Assets/EventStart.cs" />
+        <option value="$PROJECT_DIR$/Assets/EventTry.cs" />
+=======
+        <option value="$PROJECT_DIR$/Assets/EventMouseEnter.cs" />
+        <option value="$PROJECT_DIR$/Assets/EventExperiment.cs" />
+>>>>>>> master
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>
@@ -80,7 +99,16 @@
       <option name="presentableId" value="Default" />
       <updated>1567643888899</updated>
       <workItem from="1567643911204" duration="935000" />
+<<<<<<< Updated upstream
       <workItem from="1567787581966" duration="2246000" />
+=======
+<<<<<<< HEAD
+      <workItem from="1567787581966" duration="2840000" />
+      <workItem from="1567914076587" duration="2706000" />
+=======
+      <workItem from="1567787581966" duration="2246000" />
+>>>>>>> master
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>

@@ -11,6 +11,13 @@
         <e p="EventExperiment.cs" t="Include" />
         <e p="EventMouseEnter.cs" t="Include" />
         <e p="EventRandom.cs" t="Include" />
+<<<<<<< Updated upstream
+=======
+<<<<<<< HEAD
+        <e p="EventTry.cs" t="Include" />
+=======
+>>>>>>> master
+>>>>>>> Stashed changes
       </e>
       <e p="Events Experiment.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

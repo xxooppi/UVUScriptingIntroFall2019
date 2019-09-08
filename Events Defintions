@@ -1,0 +1,4 @@
+OnDestroy = event happens when scene or game ends
+OnDrawGizmos = event that draws stuff is specified locations
+OnEnable = event happens when object is turned on or active
+OnDisable = evnet happens when object or behavior is turned off, destroyed, or no longer active
