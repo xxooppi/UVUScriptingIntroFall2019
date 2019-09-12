@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d9804b9b-1c9c-4633-b2c9-ac7d66d879bb" name="Default Changelist" comment="" />
@@ -13,7 +13,11 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/TriggerEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ParticleControl.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MouseEvents.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/CatClass.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/FloatData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/DogClass.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -21,6 +25,10 @@
         <option value="$PROJECT_DIR$/Assets/FoatData.cs" />
         <option value="$PROJECT_DIR$/Assets/TriggerEvents.cs" />
         <option value="$PROJECT_DIR$/Assets/FloatData.cs" />
+        <option value="$PROJECT_DIR$/Assets/DogClass.cs" />
+        <option value="$PROJECT_DIR$/Assets/CatClass.cs" />
+        <option value="$PROJECT_DIR$/Assets/ParticleControl.cs" />
+        <option value="$PROJECT_DIR$/Assets/MouseEvents.cs" />
       </list>
     </option>
   </component>
@@ -71,6 +79,7 @@
       <option name="presentableId" value="Default" />
       <updated>1568147962245</updated>
       <workItem from="1568147965689" duration="3123000" />
+      <workItem from="1568321363196" duration="2720000" />
     </task>
     <servers />
   </component>
@@ -84,7 +93,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>

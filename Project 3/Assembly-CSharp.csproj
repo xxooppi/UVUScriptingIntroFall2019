@@ -63,7 +63,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\CatClass.cs" />
+    <Compile Include="Assets\DogClass.cs" />
     <Compile Include="Assets\FloatData.cs" />
+    <Compile Include="Assets\MouseEvents.cs" />
+    <Compile Include="Assets\ParticleControl.cs" />
     <Compile Include="Assets\TriggerEvents.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>C:/Users/10834172/Documents/DM 1610 Fall 2019/GitRepos/UVUScriptingIntroFall2019/Project 3/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
