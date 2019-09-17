@@ -1,16 +1,16 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿
 using UnityEngine;
 
-public class FloatData : MonoBehaviour {
+[CreateAssetMenu]
+public class FloatData : ScriptableObject
+{
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public float value = 1f;
+
+    public void UpdateValue(float amount)
+    {
+        value += amount;
+    }
+
+
 }
