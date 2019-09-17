@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7c45bde-a76e-4886-9084-c5aa57b8dc24" name="Default Changelist" comment="" />
+    <list default="true" id="98d492c7-5156-413c-9b75-a840a50ece62" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,16 +12,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Variables.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Movement.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Variables.cs" />
+        <option value="$PROJECT_DIR$/Assets/Movement.cs" />
       </list>
     </option>
   </component>
-  <component name="ProjectId" id="1QLIhkEO7miCOnPRoG8mZ98WevC" />
+  <component name="ProjectId" id="1QyqHgPI8DeT5xqc19M1guK2atO" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="Discover.Launch.Via.Unity" value="true" />
@@ -62,13 +62,12 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f7c45bde-a76e-4886-9084-c5aa57b8dc24" name="Default Changelist" comment="" />
-      <created>1567543571310</created>
+      <changelist id="98d492c7-5156-413c-9b75-a840a50ece62" name="Default Changelist" comment="" />
+      <created>1568753098148</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1567543571310</updated>
-      <workItem from="1567543574430" duration="1368000" />
-      <workItem from="1567545348568" duration="1204000" />
+      <updated>1568753098148</updated>
+      <workItem from="1568753101697" duration="3423000" />
     </task>
     <servers />
   </component>
