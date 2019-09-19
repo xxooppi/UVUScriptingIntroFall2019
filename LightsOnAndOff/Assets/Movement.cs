@@ -1,15 +1,21 @@
 ﻿
+using System;
 using UnityEngine;
-using UnityEngineInternal.Input;
 
+[RequireComponent(typeof(CharacterController))]
 public class Movement : MonoBehaviour
 {
 
-	private float speed = 10f;
-	private float gravity = -9.81f;
-	private float jumpSpeed = 50f;
+	private float speed = 10f, gravity = -9.81f, jumpSpeed = 50f;
 	private Vector3 position;
-	public CharacterController controller;
+	private int jumpCount;
+	private int jumpCountMax = 2;
+	private CharacterController controller;
+
+	private void Start()
+	{
+		controller = GetComponent<CharacterController>();
+	}
 
 	void Update ()
 	{
@@ -19,9 +25,16 @@ public class Movement : MonoBehaviour
 		{
 			position.y += gravity;
 		}
-
-		if (Input.GetButtonDown("Jump"))
+		
+		if (controller.isGrounded)
 		{
+			jumpCount = 0;
+			position.y = 0;
+		}
+
+		if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
+		{
+			jumpCount++;
 			position.y = jumpSpeed;
 		}
 
