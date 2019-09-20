@@ -12,15 +12,22 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/MouseClick.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/GameReset.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/StartScreen.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/FloatDataHealth.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Collision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Movement.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/MouseClick.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Temp/Compiled-Standard.shader" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Collision.cs" />
         <option value="$PROJECT_DIR$/Assets/Movement.cs" />
+        <option value="$PROJECT_DIR$/Assets/StartScreen.cs" />
+        <option value="$PROJECT_DIR$/Assets/FloatDataHealth.cs" />
+        <option value="$PROJECT_DIR$/Assets/GameReset.cs" />
       </list>
     </option>
   </component>
@@ -78,6 +85,7 @@
       <updated>1568818878166</updated>
       <workItem from="1568818900827" duration="1446000" />
       <workItem from="1568925661935" duration="1973000" />
+      <workItem from="1568998127292" duration="2846000" />
     </task>
     <servers />
   </component>
