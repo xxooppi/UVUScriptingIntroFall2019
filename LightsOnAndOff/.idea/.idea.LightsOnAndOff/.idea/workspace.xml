@@ -12,18 +12,29 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+<<<<<<< Updated upstream
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ApplyForce.cs" root0="FORCE_HIGHLIGHTING" />
+=======
+    <setting file="file://$PROJECT_DIR$/Assets/Functions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Collision.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Movement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/MouseClick.cs" root0="SKIP_HIGHLIGHTING" />
+>>>>>>> Stashed changes
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Collision.cs" />
         <option value="$PROJECT_DIR$/Assets/Movement.cs" />
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/Assets/StartScreen.cs" />
         <option value="$PROJECT_DIR$/Assets/FloatDataHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/GameReset.cs" />
         <option value="$PROJECT_DIR$/Assets/IfStatements.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ApplyForce.cs" />
+=======
+        <option value="$PROJECT_DIR$/Assets/Functions.cs" />
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>
@@ -80,9 +91,14 @@
       <option name="presentableId" value="Default" />
       <updated>1568818878166</updated>
       <workItem from="1568818900827" duration="1446000" />
+<<<<<<< Updated upstream
       <workItem from="1568925661935" duration="1973000" />
       <workItem from="1568998127292" duration="2846000" />
       <workItem from="1569357934778" duration="2067000" />
+=======
+      <workItem from="1568925661935" duration="2643000" />
+      <workItem from="1569533020764" duration="1210000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>

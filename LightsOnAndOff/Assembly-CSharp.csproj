@@ -59,6 +59,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< Updated upstream
     <Compile Include="Assets\Scripts\ApplyForce.cs" />
     <Compile Include="Assets\Scripts\Collision.cs" />
     <Compile Include="Assets\Scripts\FloatDataHealth.cs" />
@@ -70,8 +71,17 @@
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>C:/Users/10834172/Documents/DM 1610 Fall 2019/GitRepos/UVUScriptingIntroFall2019/LightsOnAndOff/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
+=======
+    <Compile Include="Assets\Collision.cs" />
+    <Compile Include="Assets\Functions.cs" />
+    <Compile Include="Assets\MouseClick.cs" />
+    <Compile Include="Assets\Movement.cs" />
+>>>>>>> Stashed changes
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/10834172/Documents/DM 1610 Fall 2019/GitRepos/UVUScriptingIntroFall2019/LightsOnAndOff/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>C:/Users/10834172/Documents/DG 1660/gitRepos/UVUScriptingIntroFall2019/LightsOnAndOff/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
