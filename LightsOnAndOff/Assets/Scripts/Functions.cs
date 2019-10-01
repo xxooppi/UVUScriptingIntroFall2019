@@ -9,6 +9,7 @@ public class Functions : MonoBehaviour
 	private int myNumber;
 	public float speed = 5f;
 	public GameObject player;
+	public Color playerColor = Color.cyan;
 
 	// Use this for initialization
 	void Start ()
@@ -24,6 +25,7 @@ public class Functions : MonoBehaviour
 		newPlayer.tag = "player";
 		newPlayer.transform.position = Vector3.zero;
 		newPlayer.name = playerName;
+		newPlayer.GetComponent<Renderer>().material.color = playerColor;
 
 		return newPlayer;
 	}
