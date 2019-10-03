@@ -15,7 +15,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{001A5DE6-505D-13C1-40D0-087A0581439F}</ProjectGuid>
+    <ProjectGuid>{17F000F2-F3A5-BFC6-F5CA-F899A4601084}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -59,22 +59,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\ApplyForce.cs" />
-    <Compile Include="Assets\Scripts\Collision.cs" />
-    <Compile Include="Assets\Scripts\FloatDataHealth.cs" />
-    <Compile Include="Assets\Scripts\Functions.cs" />
-    <Compile Include="Assets\Scripts\GameReset.cs" />
-    <Compile Include="Assets\Scripts\IfStatements.cs" />
-    <Compile Include="Assets\Scripts\IntData.cs" />
-    <Compile Include="Assets\Scripts\MouseClick.cs" />
-    <Compile Include="Assets\Scripts\Movement.cs" />
-    <Compile Include="Assets\Scripts\ScriptablePlayer.cs" />
-    <Compile Include="Assets\Scripts\StartScreen.cs" />
-    <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/10834172/Documents/DG 1660/gitRepos/UVUScriptingIntroFall2019/LightsOnAndOff/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
-    </Reference>
+    <Compile Include="Assets\Collision.cs" />
+    <Compile Include="Assets\FloatData.cs" />
+    <Compile Include="Assets\Functions.cs" />
+    <Compile Include="Assets\MonoEvents.cs" />
+    <Compile Include="Assets\Movement.cs" />
+    <Compile Include="Assets\UIImage.cs" />
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/10834172/Documents/DG 1660/gitRepos/UVUScriptingIntroFall2019/LightsOnAndOff/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/10834172/Documents/DG 1660/gitRepos/UVUScriptingIntroFall2019/ClassWork2018.1Real/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.StandardEvents">
+      <HintPath>C:/Users/10834172/Documents/DG 1660/gitRepos/UVUScriptingIntroFall2019/ClassWork2018.1Real/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
