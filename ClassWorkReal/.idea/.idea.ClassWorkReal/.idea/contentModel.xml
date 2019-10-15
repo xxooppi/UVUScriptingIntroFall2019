@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\10834172\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="ApplyForce.cs" t="Include" />
+          <e p="CinemaMachineController.cs" t="Include" />
           <e p="ClothingData.cs" t="Include" />
           <e p="Collision.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
