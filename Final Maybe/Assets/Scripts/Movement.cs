@@ -6,7 +6,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 {
 
-	private float speed = 10f, gravity = -9.81f, jumpSpeed = 50f;
+	private float speed = 10f, gravity = -9.81f, jumpSpeed = 55f;
 	private Vector3 position;
 	private int jumpCount;
 	private int jumpCountMax = 2;
