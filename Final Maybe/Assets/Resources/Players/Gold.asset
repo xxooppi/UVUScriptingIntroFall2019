@@ -9,9 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 43bb9c6b4d7621c4da9307b530227a99, type: 3}
-  m_Name: Purple
+  m_Name: Gold
   m_EditorClassIdentifier: 
   sprite: {fileID: 0}
-  color: {r: 0.64838827, g: 0.0047169924, b: 1, a: 1}
+  color: {r: 1, g: 0.8235294, b: 0, a: 1}
   prefab: {fileID: 0}
   weapon: {fileID: 0}
