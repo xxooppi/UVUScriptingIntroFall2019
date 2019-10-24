@@ -4811,7 +4811,7 @@ GameObject:
   - component: {fileID: 819225232}
   - component: {fileID: 819225231}
   m_Layer: 5
-  m_Name: Text
+  m_Name: CoinCount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -9448,7 +9448,7 @@ GameObject:
   - component: {fileID: 1716036957}
   - component: {fileID: 1716036956}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Healthbar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

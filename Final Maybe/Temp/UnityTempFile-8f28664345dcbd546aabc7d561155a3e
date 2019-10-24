@@ -180,10 +180,10 @@
 -define:UNITY_TEAM_LICENSE
 -define:UNITY_PRO_LICENSE
 Assets/Scripts/ApplyForce.cs
-Assets/Scripts/ClothingData.cs
 Assets/Scripts/Collision.cs
 Assets/Scripts/FloatData.cs
 Assets/Scripts/Functions.cs
+Assets/Scripts/GameArtCollection.cs
 Assets/Scripts/GameArtData.cs
 Assets/Scripts/IntDataObject.cs
 Assets/Scripts/MonoEvents.cs

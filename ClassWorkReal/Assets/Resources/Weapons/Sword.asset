@@ -9,9 +9,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 84f1f9744759a8345af785b02deecf01, type: 3}
-  m_Name: Blue
+  m_Name: Sword
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: fb0712fde9cd4ca48bd961e0c47d9fc7, type: 3}
-  color: {r: 0.08235294, g: 0, b: 1, a: 1}
-  prefab: {fileID: 1709117226584864, guid: af10e48faf12e0f4984d0c83e1e53fcc, type: 2}
+  sprite: {fileID: 21300000, guid: cb2b2c858c366d94aafde25aedcc4597, type: 3}
+  color: {r: 0.72186303, g: 1, b: 0, a: 1}
+  prefab: {fileID: 1660534108953546, guid: 6b337db2fbe9a674783bc8fce4ffd2a3, type: 2}
   weaponPower: 10

@@ -64,6 +64,7 @@
     <Compile Include="Assets\Scripts\Collision.cs" />
     <Compile Include="Assets\Scripts\FloatData.cs" />
     <Compile Include="Assets\Scripts\Functions.cs" />
+    <Compile Include="Assets\Scripts\GameArtCollection.cs" />
     <Compile Include="Assets\Scripts\GameArtData.cs" />
     <Compile Include="Assets\Scripts\IntDataObject.cs" />
     <Compile Include="Assets\Scripts\MonoEvents.cs" />
