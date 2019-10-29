@@ -14,18 +14,28 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerData.cs" root0="FORCE_HIGHLIGHTING" />
+<<<<<<< Updated upstream
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Collision.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameArtCollection.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameArtData.cs" root0="FORCE_HIGHLIGHTING" />
+=======
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameArtData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Functions.cs" root0="FORCE_HIGHLIGHTING" />
+>>>>>>> Stashed changes
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< Updated upstream
         <option value="$PROJECT_DIR$/Assets/Scripts/Movement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Collision.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CollectionData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameArtData.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameArtCollection.cs" />
+=======
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyData.cs" />
+>>>>>>> Stashed changes
       </list>
     </option>
   </component>
@@ -77,8 +87,12 @@
       <option name="presentableId" value="Default" />
       <updated>1570900735507</updated>
       <workItem from="1570900752975" duration="583000" />
+<<<<<<< Updated upstream
       <workItem from="1571776089670" duration="3964000" />
       <workItem from="1571950139288" duration="3523000" />
+=======
+      <workItem from="1572325388322" duration="380000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
