@@ -181,6 +181,9 @@
 -define:UNITY_PRO_LICENSE
 Assets/Scripts/ApplyForce.cs
 Assets/Scripts/Collision.cs
+Assets/Scripts/Debugger.cs
+Assets/Scripts/EnemyData.cs
+Assets/Scripts/EnumSwtich.cs
 Assets/Scripts/FloatData.cs
 Assets/Scripts/Functions.cs
 Assets/Scripts/GameArtCollection.cs
