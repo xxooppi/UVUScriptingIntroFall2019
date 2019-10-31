@@ -179,11 +179,10 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:UNITY_TEAM_LICENSE
 -define:UNITY_PRO_LICENSE
+Assets/Scripts/AI/AgentHandler.cs
 Assets/Scripts/ApplyForce.cs
+Assets/Scripts/ClothingData.cs
 Assets/Scripts/Collision.cs
-Assets/Scripts/Debugger.cs
-Assets/Scripts/EnemyData.cs
-Assets/Scripts/EnumSwtich.cs
 Assets/Scripts/FloatData.cs
 Assets/Scripts/Functions.cs
 Assets/Scripts/GameArtCollection.cs

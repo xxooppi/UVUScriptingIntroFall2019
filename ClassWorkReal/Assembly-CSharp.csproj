@@ -59,6 +59,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AI\AgentHandler.cs" />
     <Compile Include="Assets\Scripts\ApplyForce.cs" />
     <Compile Include="Assets\Scripts\ClothingData.cs" />
     <Compile Include="Assets\Scripts\Collision.cs" />

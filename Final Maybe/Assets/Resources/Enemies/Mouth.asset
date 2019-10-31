@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Name: Mouth
   m_EditorClassIdentifier: 
   sprite: {fileID: 0}
-  prefab: {fileID: 0}
+  prefab: {fileID: 1203279977806734, guid: dde1a0cdbcf1ec34982acda27ce3b1eb, type: 2}
