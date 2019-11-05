@@ -73,9 +73,9 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll"
--r:C:/Users/10834172/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll
--r:C:/Users/10834172/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.1/UnityEngine.Purchasing.dll
--r:C:/Users/10834172/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll
+-r:C:/Users/CheshireX/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll
+-r:C:/Users/CheshireX/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.purchasing@2.0.1/UnityEngine.Purchasing.dll
+-r:C:/Users/CheshireX/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.standardevents@1.0.13/UnityEngine.StandardEvents.dll
 -r:"C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\MonoBleedingEdge\lib\mono\unity\mscorlib.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\MonoBleedingEdge\lib\mono\unity\System.Core.dll"
@@ -178,11 +178,12 @@
 -define:UNITY_EDITOR_WIN
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:UNITY_TEAM_LICENSE
--define:UNITY_PRO_LICENSE
-Assets/Scripts/AI/AgentHandler.cs
 Assets/Scripts/ApplyForce.cs
-Assets/Scripts/ClothingData.cs
 Assets/Scripts/Collision.cs
+Assets/Scripts/Debugger.cs
+Assets/Scripts/DebugHandler.cs
+Assets/Scripts/EnemyData.cs
+Assets/Scripts/EnumSwtich.cs
 Assets/Scripts/FloatData.cs
 Assets/Scripts/Functions.cs
 Assets/Scripts/GameArtCollection.cs
@@ -191,6 +192,8 @@ Assets/Scripts/IntDataObject.cs
 Assets/Scripts/MonoEvents.cs
 Assets/Scripts/Movement.cs
 Assets/Scripts/PlayerData.cs
+Assets/Scripts/PlayerHandler.cs
+Assets/Scripts/TriggerEvents.cs
 Assets/Scripts/UIImage.cs
 Assets/Scripts/UITextControler.cs
 Assets/Scripts/WeaponData.cs

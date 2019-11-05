@@ -2,8 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu]
-public class PlayerHandler : ScriptableObject
+public class PlayerHandler : MonoBehaviour
 {
     public PlayerData playerDataObj;
 
