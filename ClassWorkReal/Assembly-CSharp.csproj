@@ -69,10 +69,12 @@
     <Compile Include="Assets\Scripts\GameArtData.cs" />
     <Compile Include="Assets\Scripts\IntDataObject.cs" />
     <Compile Include="Assets\Scripts\MonoEvents.cs" />
+    <Compile Include="Assets\Scripts\MouseEvents.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\PlayerData.cs" />
     <Compile Include="Assets\Scripts\UIImage.cs" />
     <Compile Include="Assets\Scripts\UITextControler.cs" />
+    <Compile Include="Assets\Scripts\Vector3Data.cs" />
     <Compile Include="Assets\Scripts\WeaponData.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/10834172/Documents/DG 1660/gitRepos/UVUScriptingIntroFall2019/ClassWorkReal/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>

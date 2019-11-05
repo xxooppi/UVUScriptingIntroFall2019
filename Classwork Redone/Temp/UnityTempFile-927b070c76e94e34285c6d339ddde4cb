@@ -64,8 +64,8 @@
 -r:"C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEditor.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/Unity.Locator.dll"
--r:Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
 -r:Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
+-r:Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
 -r:"C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
@@ -179,19 +179,21 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:UNITY_TEAM_LICENSE
 -define:UNITY_PRO_LICENSE
+-define:UNITY_POST_PROCESSING_STACK_V2
 Assets/Scripts/AI/AgentHandler.cs
+Assets/Scripts/AI/AINav.cs
 Assets/Scripts/ApplyForce.cs
-Assets/Scripts/ClothingData.cs
 Assets/Scripts/Collision.cs
 Assets/Scripts/FloatData.cs
 Assets/Scripts/Functions.cs
-Assets/Scripts/GameArtCollection.cs
 Assets/Scripts/GameArtData.cs
 Assets/Scripts/IntDataObject.cs
 Assets/Scripts/MonoEvents.cs
+Assets/Scripts/MouseEvents.cs
 Assets/Scripts/Movement.cs
 Assets/Scripts/PlayerData.cs
 Assets/Scripts/UIImage.cs
 Assets/Scripts/UITextControler.cs
+Assets/Scripts/Vector3Data.cs
 Assets/Scripts/WeaponData.cs
 -lib:"C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\MonoBleedingEdge\lib\mono\unity"
