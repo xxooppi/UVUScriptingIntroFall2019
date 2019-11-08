@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84f1f9744759a8345af785b02deecf01, type: 3}
   m_Name: Gold
   m_EditorClassIdentifier: 
-  sprite: {fileID: 21300000, guid: fb0712fde9cd4ca48bd961e0c47d9fc7, type: 3}
+  sprite: {fileID: 21300000, guid: f234497751cbee444b618e2fb22a3b19, type: 3}
   color: {r: 1, g: 0.8235294, b: 0, a: 1}
-  prefab: {fileID: 0}
+  prefab: {fileID: 1641196587003362, guid: af10e48faf12e0f4984d0c83e1e53fcc, type: 2}
   weaponPower: 10

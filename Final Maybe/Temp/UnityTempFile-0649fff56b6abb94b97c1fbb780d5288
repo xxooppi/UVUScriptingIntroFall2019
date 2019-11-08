@@ -4,8 +4,6 @@
 -langversion:4
 -out:Temp/Assembly-CSharp.dll
 -nostdlib
--r:Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
--r:Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
 -r:"C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.AIModule.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.ARModule.dll"
@@ -66,6 +64,8 @@
 -r:"C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEngine/UnityEngine.XRModule.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/UnityEditor.dll"
 -r:"C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\Managed/Unity.Locator.dll"
+-r:Library/ScriptAssemblies/UnityEditor.StandardEvents.dll
+-r:Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll
 -r:"C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2018.1.9f2/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll"
@@ -178,9 +178,24 @@
 -define:UNITY_EDITOR_WIN
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:UNITY_TEAM_LICENSE
-Assets/Scripts/AI/AgentHandler.cs
-Assets/Scripts/AI/AINav.cs
+Assets/Scripts/ApplyForce.cs
+Assets/Scripts/Collision.cs
+Assets/Scripts/Debugger.cs
+Assets/Scripts/DebugHandler.cs
+Assets/Scripts/EnemyData.cs
+Assets/Scripts/EnumSwtich.cs
+Assets/Scripts/FloatData.cs
+Assets/Scripts/Functions.cs
+Assets/Scripts/GameArtCollection.cs
+Assets/Scripts/GameArtData.cs
+Assets/Scripts/IntDataObject.cs
+Assets/Scripts/MonoEvents.cs
 Assets/Scripts/Movement.cs
+Assets/Scripts/PlayerData.cs
+Assets/Scripts/PlayerHandler.cs
 Assets/Scripts/TriggerEvents.cs
-Assets/Scripts/Vector3Data.cs
+Assets/Scripts/UIImage.cs
+Assets/Scripts/UITextControler.cs
+Assets/Scripts/WeaponData.cs
+Assets/Scripts/WeaponHandler.cs
 -lib:"C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\MonoBleedingEdge\lib\mono\unity"
