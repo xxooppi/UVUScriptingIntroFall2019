@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\CheshireX\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\CheshireX\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_NavMesh Stuffs.-98529172.00" t="ExcludeRecursive" />
+    <e p="C:\Users\CheshireX\Documents\DG 1610 Fall 2019\UVUScriptingIntroFall2019\NavMesh Stuffs" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="AI" t="Include">
+            <e p="AgentHandler.cs" t="Include" />
+            <e p="AINav.cs" t="Include" />
+          </e>
+          <e p="Movement.cs" t="Include" />
+          <e p="TriggerEvents.cs" t="Include" />
+          <e p="Vector3Data.cs" t="Include" />
+        </e>
+      </e>
+      <e p="NavMesh Stuffs.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
