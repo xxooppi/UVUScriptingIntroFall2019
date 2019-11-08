@@ -12,6 +12,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Vector3Data.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/PlayerData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameArtData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Movement.cs" root0="FORCE_HIGHLIGHTING" />
@@ -20,7 +21,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WeaponData.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIImage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UITextControler.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AI/AgentHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MouseEvents.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ClothingData.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -34,6 +35,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CinemaMachineController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Movement.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/AI/AgentHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Vector3Data.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MouseEvents.cs" />
       </list>
     </option>
   </component>
@@ -86,6 +89,7 @@
       <workItem from="1570739686994" duration="3530000" />
       <workItem from="1571172217820" duration="2072000" />
       <workItem from="1572555356760" duration="3296000" />
+      <workItem from="1572991448816" duration="795000" />
     </task>
     <servers />
   </component>
