@@ -11,5 +11,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e212ad09d27d1c94c9f7982e923c264b, type: 3}
   m_Name: Eye
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
-  prefab: {fileID: 0}
+  prefab: {fileID: 1968050870377668, guid: 5da3aa07ca28c424cb061613434d0cf0, type: 2}
