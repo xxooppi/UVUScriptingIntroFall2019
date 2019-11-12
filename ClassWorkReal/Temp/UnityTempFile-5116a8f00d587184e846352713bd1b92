@@ -183,12 +183,14 @@ Assets/Scripts/AI/AgentHandler.cs
 Assets/Scripts/ApplyForce.cs
 Assets/Scripts/ClothingData.cs
 Assets/Scripts/Collision.cs
+Assets/Scripts/CoRoutines.cs
 Assets/Scripts/FloatData.cs
 Assets/Scripts/Functions.cs
 Assets/Scripts/GameArtCollection.cs
 Assets/Scripts/GameArtData.cs
 Assets/Scripts/IntDataObject.cs
 Assets/Scripts/MonoEvents.cs
+Assets/Scripts/MouseEvents.cs
 Assets/Scripts/Movement.cs
 Assets/Scripts/PlayerData.cs
 Assets/Scripts/UIImage.cs
