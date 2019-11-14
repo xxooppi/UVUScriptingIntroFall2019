@@ -13,6 +13,7 @@
           <e p="ApplyForce.cs" t="Include" />
           <e p="ClothingData.cs" t="Include" />
           <e p="Collision.cs" t="Include" />
+          <e p="CoRoutines.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="Functions.cs" t="Include" />
           <e p="GameArtCollection.cs" t="Include" />
