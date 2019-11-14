@@ -183,6 +183,9 @@ Assets/Scripts/AI/AgentHandler.cs
 Assets/Scripts/ApplyForce.cs
 Assets/Scripts/ClothingData.cs
 Assets/Scripts/Collision.cs
+Assets/Scripts/CorountineClass.cs
+Assets/Scripts/CoRoutines.cs
+Assets/Scripts/FireBedCoroutine.cs
 Assets/Scripts/FloatData.cs
 Assets/Scripts/Functions.cs
 Assets/Scripts/GameArtCollection.cs

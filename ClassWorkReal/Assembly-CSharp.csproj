@@ -63,7 +63,9 @@
     <Compile Include="Assets\Scripts\ApplyForce.cs" />
     <Compile Include="Assets\Scripts\ClothingData.cs" />
     <Compile Include="Assets\Scripts\Collision.cs" />
+    <Compile Include="Assets\Scripts\CorountineClass.cs" />
     <Compile Include="Assets\Scripts\CoRoutines.cs" />
+    <Compile Include="Assets\Scripts\FireBedCoroutine.cs" />
     <Compile Include="Assets\Scripts\FloatData.cs" />
     <Compile Include="Assets\Scripts\Functions.cs" />
     <Compile Include="Assets\Scripts\GameArtCollection.cs" />
@@ -73,6 +75,7 @@
     <Compile Include="Assets\Scripts\MouseEvents.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\PlayerData.cs" />
+    <Compile Include="Assets\Scripts\TriggerEvents.cs" />
     <Compile Include="Assets\Scripts\UIImage.cs" />
     <Compile Include="Assets\Scripts\UITextControler.cs" />
     <Compile Include="Assets\Scripts\Vector3Data.cs" />
