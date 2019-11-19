@@ -61,6 +61,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\AI\AgentHandler.cs" />
     <Compile Include="Assets\Scripts\ApplyForce.cs" />
+    <Compile Include="Assets\Scripts\ButtonInput.cs" />
     <Compile Include="Assets\Scripts\ClothingData.cs" />
     <Compile Include="Assets\Scripts\Collision.cs" />
     <Compile Include="Assets\Scripts\CorountineClass.cs" />

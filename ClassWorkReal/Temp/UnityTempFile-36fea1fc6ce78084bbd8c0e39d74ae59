@@ -181,6 +181,7 @@
 -define:UNITY_PRO_LICENSE
 Assets/Scripts/AI/AgentHandler.cs
 Assets/Scripts/ApplyForce.cs
+Assets/Scripts/ButtonInput.cs
 Assets/Scripts/ClothingData.cs
 Assets/Scripts/Collision.cs
 Assets/Scripts/CorountineClass.cs
@@ -195,6 +196,7 @@ Assets/Scripts/MonoEvents.cs
 Assets/Scripts/MouseEvents.cs
 Assets/Scripts/Movement.cs
 Assets/Scripts/PlayerData.cs
+Assets/Scripts/TriggerEvents.cs
 Assets/Scripts/UIImage.cs
 Assets/Scripts/UITextControler.cs
 Assets/Scripts/Vector3Data.cs
