@@ -16,9 +16,13 @@
           <e p="Collision.cs" t="Include" />
           <e p="CorountineClass.cs" t="Include" />
           <e p="CoRoutines.cs" t="Include" />
+          <e p="Debugger.cs" t="Include" />
+          <e p="DebugHandler.cs" t="Include" />
           <e p="FireBedCoroutine.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="Functions.cs" t="Include" />
+          <e p="GameAction.cs" t="Include" />
+          <e p="GameActionHandler.cs" t="Include" />
           <e p="GameArtCollection.cs" t="Include" />
           <e p="GameArtData.cs" t="Include" />
           <e p="IntDataObject.cs" t="Include" />
@@ -32,6 +36,7 @@
           <e p="Vector3Data.cs" t="Include" />
           <e p="WeaponData.cs" t="Include" />
         </e>
+        <e p="StatesBehavior.cs" t="Include" />
       </e>
       <e p="ClassWorkReal.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />

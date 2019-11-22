@@ -66,9 +66,13 @@
     <Compile Include="Assets\Scripts\Collision.cs" />
     <Compile Include="Assets\Scripts\CorountineClass.cs" />
     <Compile Include="Assets\Scripts\CoRoutines.cs" />
+    <Compile Include="Assets\Scripts\Debugger.cs" />
+    <Compile Include="Assets\Scripts\DebugHandler.cs" />
     <Compile Include="Assets\Scripts\FireBedCoroutine.cs" />
     <Compile Include="Assets\Scripts\FloatData.cs" />
     <Compile Include="Assets\Scripts\Functions.cs" />
+    <Compile Include="Assets\Scripts\GameAction.cs" />
+    <Compile Include="Assets\Scripts\GameActionHandler.cs" />
     <Compile Include="Assets\Scripts\GameArtCollection.cs" />
     <Compile Include="Assets\Scripts\GameArtData.cs" />
     <Compile Include="Assets\Scripts\IntDataObject.cs" />
@@ -81,6 +85,7 @@
     <Compile Include="Assets\Scripts\UITextControler.cs" />
     <Compile Include="Assets\Scripts\Vector3Data.cs" />
     <Compile Include="Assets\Scripts\WeaponData.cs" />
+    <Compile Include="Assets\StatesBehavior.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/10834172/Documents/DG 1660/gitRepos/UVUScriptingIntroFall2019/ClassWorkReal/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
