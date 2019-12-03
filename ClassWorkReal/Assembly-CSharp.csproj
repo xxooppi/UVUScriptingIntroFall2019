@@ -62,6 +62,7 @@
     <Compile Include="Assets\Scripts\AI\AgentHandler.cs" />
     <Compile Include="Assets\Scripts\ApplyForce.cs" />
     <Compile Include="Assets\Scripts\ButtonInput.cs" />
+    <Compile Include="Assets\Scripts\CharacterFlip.cs" />
     <Compile Include="Assets\Scripts\ClothingData.cs" />
     <Compile Include="Assets\Scripts\Collision.cs" />
     <Compile Include="Assets\Scripts\CorountineClass.cs" />
@@ -80,6 +81,8 @@
     <Compile Include="Assets\Scripts\MouseEvents.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\PlayerData.cs" />
+    <Compile Include="Assets\Scripts\SemiAutoFiring.cs" />
+    <Compile Include="Assets\Scripts\SlefDestruct.cs" />
     <Compile Include="Assets\Scripts\TriggerEvents.cs" />
     <Compile Include="Assets\Scripts\UIImage.cs" />
     <Compile Include="Assets\Scripts\UITextControler.cs" />

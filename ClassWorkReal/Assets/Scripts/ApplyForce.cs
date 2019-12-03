@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody))]
 [RequireComponent(typeof(Collider))]
@@ -10,7 +7,8 @@ public class ApplyForce : MonoBehaviour
 {
 
 	private Rigidbody rb;
-	
+	public Vector3Data forceDirection;
+	public float force = 3f;
 	void Start()
 	{
 		rb = GetComponent<Rigidbody>();
@@ -18,7 +16,7 @@ public class ApplyForce : MonoBehaviour
 
 	private void OnCollisionEnter(UnityEngine.Collision other)
 	{
-		rb.AddForce(0,10f,0);
+		rb.AddForce(forceDirection.value*force);
 	}
 }
 	

@@ -182,13 +182,18 @@
 Assets/Scripts/AI/AgentHandler.cs
 Assets/Scripts/ApplyForce.cs
 Assets/Scripts/ButtonInput.cs
+Assets/Scripts/CharacterFlip.cs
 Assets/Scripts/ClothingData.cs
 Assets/Scripts/Collision.cs
 Assets/Scripts/CorountineClass.cs
 Assets/Scripts/CoRoutines.cs
+Assets/Scripts/Debugger.cs
+Assets/Scripts/DebugHandler.cs
 Assets/Scripts/FireBedCoroutine.cs
 Assets/Scripts/FloatData.cs
 Assets/Scripts/Functions.cs
+Assets/Scripts/GameAction.cs
+Assets/Scripts/GameActionHandler.cs
 Assets/Scripts/GameArtCollection.cs
 Assets/Scripts/GameArtData.cs
 Assets/Scripts/IntDataObject.cs
@@ -196,9 +201,11 @@ Assets/Scripts/MonoEvents.cs
 Assets/Scripts/MouseEvents.cs
 Assets/Scripts/Movement.cs
 Assets/Scripts/PlayerData.cs
+Assets/Scripts/SlefDestruct.cs
 Assets/Scripts/TriggerEvents.cs
 Assets/Scripts/UIImage.cs
 Assets/Scripts/UITextControler.cs
 Assets/Scripts/Vector3Data.cs
 Assets/Scripts/WeaponData.cs
+Assets/StatesBehavior.cs
 -lib:"C:\Program Files\Unity\Hub\Editor\2018.1.9f2\Editor\Data\MonoBleedingEdge\lib\mono\unity"

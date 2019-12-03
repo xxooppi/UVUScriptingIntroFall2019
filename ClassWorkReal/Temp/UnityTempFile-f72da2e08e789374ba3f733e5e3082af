@@ -182,6 +182,7 @@
 Assets/Scripts/AI/AgentHandler.cs
 Assets/Scripts/ApplyForce.cs
 Assets/Scripts/ButtonInput.cs
+Assets/Scripts/CharacterFlip.cs
 Assets/Scripts/ClothingData.cs
 Assets/Scripts/Collision.cs
 Assets/Scripts/CorountineClass.cs

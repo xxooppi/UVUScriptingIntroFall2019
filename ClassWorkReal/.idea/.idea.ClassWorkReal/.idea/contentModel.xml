@@ -12,6 +12,7 @@
           </e>
           <e p="ApplyForce.cs" t="Include" />
           <e p="ButtonInput.cs" t="Include" />
+          <e p="CharacterFlip.cs" t="Include" />
           <e p="ClothingData.cs" t="Include" />
           <e p="Collision.cs" t="Include" />
           <e p="CorountineClass.cs" t="Include" />
@@ -30,6 +31,8 @@
           <e p="MouseEvents.cs" t="Include" />
           <e p="Movement.cs" t="Include" />
           <e p="PlayerData.cs" t="Include" />
+          <e p="SemiAutoFiring.cs" t="Include" />
+          <e p="SlefDestruct.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
           <e p="UIImage.cs" t="Include" />
           <e p="UITextControler.cs" t="Include" />
