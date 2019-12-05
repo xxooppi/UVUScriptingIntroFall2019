@@ -9,5 +9,9 @@ public class IntDataObject : ScriptableObject
     public void UpdateValue(int number)
     {
         value += number;
+        if (value < 0)
+        {
+            value = 0;
+        }
     }
 }

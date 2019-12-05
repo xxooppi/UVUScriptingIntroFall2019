@@ -6,11 +6,8 @@ public class SemiAutoFiring : MonoBehaviour
 {
 	public ApplyForce ammo;
 	
-	void Update () 
+	public void Fire () 
 	{
-		if (Input.GetButtonDown("Fire1"))
-		{
-			Instantiate(ammo, transform.position, Quaternion.identity);
-		}
+		Instantiate(ammo, transform.position, Quaternion.identity);
 	}
 }

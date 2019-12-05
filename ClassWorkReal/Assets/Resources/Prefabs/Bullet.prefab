@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 114151420547078890}
   - component: {fileID: 114118823135167144}
   - component: {fileID: 222657263571321844}
+  - component: {fileID: 114335189811873054}
   - component: {fileID: 114058370879783842}
   - component: {fileID: 54308137052345162}
   m_Layer: 0
@@ -166,6 +167,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   delay: 3
+--- !u!114 &114335189811873054
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1696380283266700}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00ccbd0e291e1d74ab58174adf899dcf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ammo: {fileID: 0}
 --- !u!135 &135365305981812172
 SphereCollider:
   m_ObjectHideFlags: 1
