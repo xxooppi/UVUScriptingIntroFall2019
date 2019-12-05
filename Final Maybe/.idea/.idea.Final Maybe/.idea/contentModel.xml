@@ -12,6 +12,7 @@
           <e p="Debugger.cs" t="Include" />
           <e p="DebugHandler.cs" t="Include" />
           <e p="EnemyData.cs" t="Include" />
+          <e p="EnemyMovement.cs" t="Include" />
           <e p="EnumSwtich.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
           <e p="Follow.cs" t="Include" />

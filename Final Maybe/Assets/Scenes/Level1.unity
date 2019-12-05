@@ -9939,9 +9939,10 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 1704038620}
-  - component: {fileID: 1704038619}
-  - component: {fileID: 1704038618}
   - component: {fileID: 1704038621}
+  - component: {fileID: 1704038618}
+  - component: {fileID: 1704038622}
+  - component: {fileID: 1704038619}
   m_Layer: 0
   m_Name: EyeEnemy
   m_TagString: Untagged
@@ -9961,20 +9962,21 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1704038619
-MonoBehaviour:
+--- !u!54 &1704038619
+Rigidbody:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1704038617}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6cb5eee831283b94ab5870e92ed8108c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destination: {fileID: 4501142342893346, guid: 8e41e2503445657479c7498cef9b9820,
-    type: 2}
-  speed: 3
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 112
+  m_CollisionDetection: 0
 --- !u!4 &1704038620
 Transform:
   m_ObjectHideFlags: 0
@@ -9989,23 +9991,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!143 &1704038621
-CharacterController:
+--- !u!114 &1704038621
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1704038617}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Height: 2
-  m_Radius: 0.5
-  m_SlopeLimit: 45
-  m_StepOffset: 0.3
-  m_SkinWidth: 0.08
-  m_MinMoveDistance: 0.001
-  m_Center: {x: 0, y: 0, z: 0}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6cb5eee831283b94ab5870e92ed8108c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {fileID: 4501142342893346, guid: 8e41e2503445657479c7498cef9b9820,
+    type: 2}
+  speed: 3
+--- !u!114 &1704038622
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1704038617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 57214c28da6208645a01632bb3202e39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
 --- !u!1 &1716036954
 GameObject:
   m_ObjectHideFlags: 0

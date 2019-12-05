@@ -192,6 +192,7 @@ Assets/Scripts/GameArtData.cs
 Assets/Scripts/IntDataObject.cs
 Assets/Scripts/MonoEvents.cs
 Assets/Scripts/Movement.cs
+Assets/Scripts/NewBehaviourScript.cs
 Assets/Scripts/PlayerData.cs
 Assets/Scripts/PlayerHandler.cs
 Assets/Scripts/TriggerEvents.cs

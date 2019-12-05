@@ -183,6 +183,7 @@ Assets/Scripts/Collision.cs
 Assets/Scripts/Debugger.cs
 Assets/Scripts/DebugHandler.cs
 Assets/Scripts/EnemyData.cs
+Assets/Scripts/EnemyMovement.cs
 Assets/Scripts/EnumSwtich.cs
 Assets/Scripts/FloatData.cs
 Assets/Scripts/Follow.cs
