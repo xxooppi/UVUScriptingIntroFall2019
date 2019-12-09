@@ -23,19 +23,19 @@ public class Movement : MonoBehaviour
 
 		if (!controller.isGrounded)
 		{
-			position.z += gravity;
+			position.y += gravity;
 		}
 		
 		if (controller.isGrounded)
 		{
 			jumpCount = 0;
-			position.z = 0;
+			position.y = 0;
 		}
 
 		if (Input.GetButtonDown("Jump") && jumpCount < jumpCountMax)
 		{
 			jumpCount++;
-			position.z = jumpSpeed;
+			position.y = jumpSpeed;
 		}
 
 		controller.Move(position * Time.deltaTime);

@@ -13,9 +13,9 @@
           <e p="DebugHandler.cs" t="Include" />
           <e p="EnemyData.cs" t="Include" />
           <e p="EnemyMovement.cs" t="Include" />
+          <e p="EnemyPatrol.cs" t="Include" />
           <e p="EnumSwtich.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
-          <e p="Follow.cs" t="Include" />
           <e p="Functions.cs" t="Include" />
           <e p="GameArtCollection.cs" t="Include" />
           <e p="GameArtData.cs" t="Include" />

@@ -65,9 +65,9 @@
     <Compile Include="Assets\Scripts\DebugHandler.cs" />
     <Compile Include="Assets\Scripts\EnemyData.cs" />
     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
+    <Compile Include="Assets\Scripts\EnemyPatrol.cs" />
     <Compile Include="Assets\Scripts\EnumSwtich.cs" />
     <Compile Include="Assets\Scripts\FloatData.cs" />
-    <Compile Include="Assets\Scripts\Follow.cs" />
     <Compile Include="Assets\Scripts\Functions.cs" />
     <Compile Include="Assets\Scripts\GameArtCollection.cs" />
     <Compile Include="Assets\Scripts\GameArtData.cs" />
