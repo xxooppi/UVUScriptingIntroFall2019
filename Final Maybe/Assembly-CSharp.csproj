@@ -60,15 +60,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ApplyForce.cs" />
+    <Compile Include="Assets\Scripts\CharacterFlip.cs" />
     <Compile Include="Assets\Scripts\CharacterReset.cs" />
     <Compile Include="Assets\Scripts\Collision.cs" />
+    <Compile Include="Assets\Scripts\CorountineClass.cs" />
+    <Compile Include="Assets\Scripts\CoRoutines.cs" />
     <Compile Include="Assets\Scripts\Debugger.cs" />
     <Compile Include="Assets\Scripts\DebugHandler.cs" />
+    <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\EnemyData.cs" />
     <Compile Include="Assets\Scripts\EnemyMovement.cs" />
-    <Compile Include="Assets\Scripts\EnemyPatrol.cs" />
     <Compile Include="Assets\Scripts\EnumSwtich.cs" />
     <Compile Include="Assets\Scripts\FloatData.cs" />
+    <Compile Include="Assets\Scripts\FlowerActivation.cs" />
     <Compile Include="Assets\Scripts\Functions.cs" />
     <Compile Include="Assets\Scripts\GameArtCollection.cs" />
     <Compile Include="Assets\Scripts\GameArtData.cs" />
@@ -77,11 +81,17 @@
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\PlayerData.cs" />
     <Compile Include="Assets\Scripts\PlayerHandler.cs" />
+    <Compile Include="Assets\Scripts\SemiAutoFiring.cs" />
+    <Compile Include="Assets\Scripts\SlefDestruct.cs" />
     <Compile Include="Assets\Scripts\TriggerEvents.cs" />
     <Compile Include="Assets\Scripts\UIImage.cs" />
     <Compile Include="Assets\Scripts\UITextControler.cs" />
+    <Compile Include="Assets\Scripts\Vector3Data.cs" />
     <Compile Include="Assets\Scripts\WeaponData.cs" />
+    <Compile Include="Assets\Scripts\WeaponFire.cs" />
     <Compile Include="Assets\Scripts\WeaponHandler.cs" />
+    <Compile Include="Assets\Scripts\WeaponTravel.cs" />
+    <Compile Include="Assets\WeaponMovement.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>C:/Users/CheshireX/Documents/DG 1610 Fall 2019/UVUScriptingIntroFall2019/Final Maybe/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>

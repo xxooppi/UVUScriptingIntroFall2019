@@ -8,15 +8,19 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="ApplyForce.cs" t="Include" />
+          <e p="CharacterFlip.cs" t="Include" />
           <e p="CharacterReset.cs" t="Include" />
           <e p="Collision.cs" t="Include" />
+          <e p="CorountineClass.cs" t="Include" />
+          <e p="CoRoutines.cs" t="Include" />
           <e p="Debugger.cs" t="Include" />
           <e p="DebugHandler.cs" t="Include" />
+          <e p="Enemy.cs" t="Include" />
           <e p="EnemyData.cs" t="Include" />
           <e p="EnemyMovement.cs" t="Include" />
-          <e p="EnemyPatrol.cs" t="Include" />
           <e p="EnumSwtich.cs" t="Include" />
           <e p="FloatData.cs" t="Include" />
+          <e p="FlowerActivation.cs" t="Include" />
           <e p="Functions.cs" t="Include" />
           <e p="GameArtCollection.cs" t="Include" />
           <e p="GameArtData.cs" t="Include" />
@@ -25,12 +29,18 @@
           <e p="Movement.cs" t="Include" />
           <e p="PlayerData.cs" t="Include" />
           <e p="PlayerHandler.cs" t="Include" />
+          <e p="SemiAutoFiring.cs" t="Include" />
+          <e p="SlefDestruct.cs" t="Include" />
           <e p="TriggerEvents.cs" t="Include" />
           <e p="UIImage.cs" t="Include" />
           <e p="UITextControler.cs" t="Include" />
+          <e p="Vector3Data.cs" t="Include" />
           <e p="WeaponData.cs" t="Include" />
+          <e p="WeaponFire.cs" t="Include" />
           <e p="WeaponHandler.cs" t="Include" />
+          <e p="WeaponTravel.cs" t="Include" />
         </e>
+        <e p="WeaponMovement.cs" t="Include" />
       </e>
       <e p="Final Maybe.sln" t="IncludeFlat" />
       <e p="obj" t="ExcludeRecursive" />
