@@ -5,20 +5,29 @@ using UnityEngine;
 public class CharacterReset : MonoBehaviour
 {
 	public FloatData data;
-	public float delay;
+	//public float delay;
 	public GameObject player;
-	public WaitForSeconds wfsObj;
+	//public WaitForSeconds wfsObj;
 	private Transform startPosition;
 	private GameObject startObj;
 	void Start () 
 	{
 		startObj = new GameObject();
 		startObj.transform.position = transform.position;
-		wfsObj = new WaitForSeconds(delay);
-		StartCoroutine(ResetPlayer());
+		//wfsObj = new WaitForSeconds(delay);
+		//StartCoroutine(ResetPlayer());
 	}
 
-	IEnumerator ResetPlayer()
+	public void ResetPosition()
+	{
+		if (data.value <= 0)
+		{
+			Destroy(player);
+			Instantiate(player, startObj.transform.position, startObj.transform.rotation);
+		}
+	}
+
+	/*IEnumerator ResetPlayer()
 	{
 		if (data.value <= 0)
 		{
@@ -29,5 +38,5 @@ public class CharacterReset : MonoBehaviour
 			transform.position = startObj.transform.position;
 
 		}
-	}
+	}*/
 }

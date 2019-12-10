@@ -4,9 +4,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.PlayerLoop;
 [RequireComponent(typeof(Collider))]
+[RequireComponent(typeof(Rigidbody))]
 public class Enemy : MonoBehaviour
 {
 	public GameObject obj;
+	public Rigidbody rb;
 	public float counterStart;
 	public float counter = 5;
 	public FloatData health;
@@ -16,9 +18,12 @@ public class Enemy : MonoBehaviour
 	private Collider trigger;
 	//private Vector3 position;
 	////private bool enemyMoving = true;
-
+	
 	private void Awake()
 	{
+		rb = GetComponent<Rigidbody>();
+		rb.useGravity = false;
+		rb.freezeRotation = true;
 		trigger = GetComponent<Collider>();
 		trigger.isTrigger = true;
 		wfsObj = new WaitForSeconds(seconds);
@@ -26,25 +31,31 @@ public class Enemy : MonoBehaviour
 		counter = counterStart;
 		//StartCoroutine(EnemyPatrolling());
 	}
-
+	
+	private void Start()
+		{
+			Debug.Log(counter);
+		}
+	
 	/*IEnumerator EnemyPatrolling()
 	{
 		while (counter > 0)
 		{
-			transform.Translate(Time.deltaTime*speed*Vector2.right);
+			rb.velocity = Time.deltaTime * speed * transform.right;
+			//transform.Translate(Time.deltaTime*speed*Vector2.right);
 			//position.x = rightSpeed * Time.deltaTime;
 			counter--;
+			transform.rotation = Quaternion.Euler(0,180,0);
 			yield return wfsObj;
-			//Debug.Log(counter);
 		}
 		counter = counterStart;
 		while (counter > 0)
 		{
-			transform.Translate(Time.deltaTime*speed*Vector2.left);
+			rb.velocity = Time.deltaTime * speed * transform.right;
+			//transform.Translate(Time.deltaTime*speed*Vector2.left);
 			//position.x = leftSpeed * Time.deltaTime;
 			counter--;
 			yield return wfsObj;
-			//Debug.Log(counter);
 		}
 		counter = counterStart;
 	}*/

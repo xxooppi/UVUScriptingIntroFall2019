@@ -9,80 +9,80 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1388221551855630}
+  m_RootGameObject: {fileID: 1631436652612864}
   m_IsPrefabParent: 1
---- !u!1 &1277588202769730
+--- !u!1 &1132249081017588
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4291499937982638}
-  - component: {fileID: 108853065550269408}
+  - component: {fileID: 4355699949213288}
+  - component: {fileID: 108376369209978994}
   m_Layer: 0
-  m_Name: CoinLight
+  m_Name: PowerUpLight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &1388221551855630
+--- !u!1 &1631436652612864
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4596299362565986}
-  - component: {fileID: 135771471440044404}
-  - component: {fileID: 114481115439652012}
-  - component: {fileID: 212989244069083476}
+  - component: {fileID: 4734958347668222}
+  - component: {fileID: 135649259876847066}
+  - component: {fileID: 114302100635196634}
+  - component: {fileID: 212151548236403254}
   m_Layer: 0
-  m_Name: Coin
+  m_Name: PowerUp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4291499937982638
+--- !u!4 &4355699949213288
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1277588202769730}
+  m_GameObject: {fileID: 1132249081017588}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 4596299362565986}
+  m_Father: {fileID: 4734958347668222}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
---- !u!4 &4596299362565986
+--- !u!4 &4734958347668222
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1388221551855630}
+  m_GameObject: {fileID: 1631436652612864}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.64, y: 7.87, z: 0}
+  m_LocalPosition: {x: 118.9, y: 7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 4291499937982638}
+  - {fileID: 4355699949213288}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!108 &108853065550269408
+--- !u!108 &108376369209978994
 Light:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1277588202769730}
+  m_GameObject: {fileID: 1132249081017588}
   m_Enabled: 1
   serializedVersion: 8
   m_Type: 3
-  m_Color: {r: 0, g: 0.94248676, b: 1, a: 1}
-  m_Intensity: 0.5
+  m_Color: {r: 1, g: 0, b: 0.7058824, a: 1}
+  m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
   m_CookieSize: 10
@@ -108,12 +108,12 @@ Light:
   m_UseColorTemperature: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!114 &114481115439652012
+--- !u!114 &114302100635196634
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1388221551855630}
+  m_GameObject: {fileID: 1631436652612864}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b3fee271ca08d4f408d82c5b838f444e, type: 3}
@@ -122,18 +122,18 @@ MonoBehaviour:
   collision:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 11400000, guid: c00d70e5af292a8488ee52496ccfc36d, type: 2}
+      - m_Target: {fileID: 11400000, guid: 423de74ec6d113f4b9305477bf3af846, type: 2}
         m_MethodName: UpdateValue
-        m_Mode: 3
+        m_Mode: 4
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1
-          m_FloatArgument: 0
+          m_FloatArgument: 0.3
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1388221551855630}
+      - m_Target: {fileID: 1631436652612864}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -145,12 +145,12 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
       - m_Target: {fileID: 0}
-        m_MethodName: UpdateText
+        m_MethodName: UpdateImage
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 11400000, guid: c00d70e5af292a8488ee52496ccfc36d,
+          m_ObjectArgument: {fileID: 11400000, guid: 423de74ec6d113f4b9305477bf3af846,
             type: 2}
-          m_ObjectArgumentAssemblyTypeName: IntDataObject, Assembly-CSharp
+          m_ObjectArgumentAssemblyTypeName: FloatData, Assembly-CSharp
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -158,24 +158,24 @@ MonoBehaviour:
         m_CallState: 2
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
       Culture=neutral, PublicKeyToken=null
---- !u!135 &135771471440044404
+--- !u!135 &135649259876847066
 SphereCollider:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1388221551855630}
+  m_GameObject: {fileID: 1631436652612864}
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!212 &212989244069083476
+--- !u!212 &212151548236403254
 SpriteRenderer:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1388221551855630}
+  m_GameObject: {fileID: 1631436652612864}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -206,7 +206,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 990d73e0c1387684b89ebc7b595fc3b5, type: 3}
-  m_Color: {r: 0, g: 1, b: 0.89082146, a: 1}
+  m_Color: {r: 1, g: 0, b: 0.7058824, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
